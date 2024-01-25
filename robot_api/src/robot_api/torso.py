@@ -42,8 +42,6 @@ class Torso(object):
             height = self.MAX_HEIGHT
         elif height < self.MIN_HEIGHT:
             height = self.MIN_HEIGHT
-        else:
-            pass
         # TODO: Create a trajectory point
         point = trajectory_msgs.msg.JointTrajectoryPoint()
         # TODO: Set position of trajectory point
@@ -61,4 +59,4 @@ class Torso(object):
         client.send_goal(goal)
         # TODO: Wait for result
         client.wait_for_result()
-        rospy.logerr('Not implemented.')
+        # rospy.logerr('Not implemented.')

@@ -8,7 +8,7 @@ def print_usage():
     print('Usage: rosrun applications gripper_demo.py open')
     print('       rosrun applications gripper_demo.py close 40')
 
-
+ 
 def wait_for_time():
     """Wait for simulated time to begin.
     """

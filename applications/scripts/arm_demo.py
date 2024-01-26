@@ -3,7 +3,6 @@
 import robot_api
 import rospy
 
-
 def wait_for_time():
     """Wait for simulated time to begin.
     """
